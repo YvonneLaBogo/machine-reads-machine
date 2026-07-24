@@ -6,7 +6,7 @@
 **Website status:** Not authorized for construction or publication  
 **Constitution:** Version 1.0.0 frozen on 2026-07-24  
 **Machine measurement package:** Version 1.0.0 frozen privately; public hash commitment only  
-**Human participant notice:** Draft; contact and processing setup unresolved  
+**Human participant notice:** Version 1.0.0 frozen; not active before Phase 5 control run  
 **Concept originator and human publisher:** Yvonne Bogosavljević  
 **AI project architect:** Codex  
 **Established:** 2026-07-22
@@ -32,10 +32,11 @@ remain outside the current phase unless separately decided and logged.
 
 ## Current gate
 
-Constitution 1.0.0 and the private machine measurement package 1.0.0 are
-frozen. Website construction remains blocked until the human participant and
-privacy procedure is frozen, the pre-publication baseline is complete, and
-the technical platform decision is logged.
+Constitution 1.0.0, the private machine measurement package 1.0.0, and the
+human participant and privacy procedure 1.0.0 are frozen. Phase 0 remains open
+until the intervention rules are frozen. Website construction remains blocked
+until Phase 0 is closed, the pre-publication baseline is complete, and the
+technical platform decision is logged.
 
 ## Canonical record
 
