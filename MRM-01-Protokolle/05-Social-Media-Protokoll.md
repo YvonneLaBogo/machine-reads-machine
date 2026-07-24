@@ -1,6 +1,6 @@
 # MRM-01 · Codex-led LinkedIn protocol
 
-**Status:** Draft; no posts authorized or scheduled
+**Status:** Historical draft; superseded by `14-Interventionsprotokoll-1.0.0.md`
 
 ## Purpose
 
