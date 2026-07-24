@@ -4,6 +4,7 @@
 **Domain:** machine-reads-machine.org  
 **Status:** Phase 0 — constitution and instrumentation  
 **Website status:** Not authorized for construction or publication  
+**Constitution:** Version 1.0.0 frozen on 2026-07-24  
 **Concept originator and human publisher:** Yvonne Bogosavljević  
 **AI project architect:** Codex  
 **Established:** 2026-07-22
@@ -29,8 +30,9 @@ remain outside the current phase unless separately decided and logged.
 
 ## Current gate
 
-Website construction remains blocked until the project constitution and
-measurement procedure are frozen and the pre-publication baseline is complete.
+Constitution 1.0.0 is frozen. Website construction remains blocked until the
+measurement procedure is frozen, the pre-publication baseline is complete, and
+the technical platform decision is logged.
 
 ## Canonical record
 
@@ -38,4 +40,6 @@ The append-only event ledger is
 `MRM-01-Protokolle/events.jsonl`. Synced files under `sources/` are read-only
 reference material. The earlier local `protocol/` directory is preserved as a
 provisional continuation created before the original canonical ledger was
-transferred; it is not authoritative.
+transferred; it is not authoritative. The public repository contains a
+privacy-filtered projection rather than a byte-identical copy of the internal
+canonical ledger.
