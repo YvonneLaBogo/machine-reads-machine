@@ -1,0 +1,66 @@
+{
+  "object_id": "MRM-01",
+  "commitment_type": "private_measurement_package_sha256",
+  "instrument_version": "1.0.0",
+  "frozen_at": "2026-07-24",
+  "disclosure_state": "hashes_only_until_baseline_complete",
+  "counts": {
+    "sources": 10,
+    "claims": 29,
+    "questions": 20,
+    "reference_answers": 20
+  },
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 1624,
+      "sha256": "7a5b319010ee720bf2418032cdbf690d9bc0a15dde5ef970175ac589816f8957"
+    },
+    {
+      "path": "sources.jsonl",
+      "bytes": 2803,
+      "sha256": "f288748b9a323ae93cd5384af06ca58943800b65285684140cdcf51a78c42cb9"
+    },
+    {
+      "path": "claims.jsonl",
+      "bytes": 13702,
+      "sha256": "1218d5220708fd520ec7defb4a41da3fca498a0f80470963491b09ab8ac54ca7"
+    },
+    {
+      "path": "test-marker.md",
+      "bytes": 1803,
+      "sha256": "722b538201e7c18318b0ce06bdd07227e0b867808a93b344665d98b78564ac97"
+    },
+    {
+      "path": "questions.jsonl",
+      "bytes": 6831,
+      "sha256": "0b0d12a12c2f0cf4789e9528ee1386639b26aca6238d2331d37429de6280fd8b"
+    },
+    {
+      "path": "reference-answers.jsonl",
+      "bytes": 8030,
+      "sha256": "555c7ade3759bc266050181422953625468940d8f67df18733520a3659022cd9"
+    },
+    {
+      "path": "scoring-rubric.md",
+      "bytes": 4780,
+      "sha256": "32b48e4be4725e1e1e40c6b943889694f62885fc31344f754281c0ea7489b682"
+    },
+    {
+      "path": "model-test-protocol.md",
+      "bytes": 4349,
+      "sha256": "c43bca66aa338af0a95fa05e3cd0916b23ae231d8844aadbec6f372d89915a13"
+    },
+    {
+      "path": "response.schema.json",
+      "bytes": 3033,
+      "sha256": "5336e88ac779c8bc8940856e40ababe17e4ad30a0dafae0ec9bdccb55752f2cd"
+    }
+  ],
+  "combined_hash_method": "SHA-256 of the nine newline-terminated '<sha256><two spaces><path>' records in the listed order",
+  "combined_sha256": "240ddd229c020b5e8bb147a5f4bd6e679aab854c2b68ec19ff13aa893fae7405",
+  "excluded_from_freeze": [
+    "human-participant-notice-draft.md"
+  ],
+  "publication_rule": "Substantive artifacts remain private until baseline completion is logged."
+}
