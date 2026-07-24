@@ -23,6 +23,9 @@ Rules:
 - `05-Social-Media-Protokoll.md` — Codex-geführte LinkedIn-Regeln
 - `06-Website-Architektur.md` — maschinennative Seitenstruktur
 - `07-Naechste-Schritte.md` — verbindliche Reihenfolge ab Phase 0
+- `08-Externe-Arbeitsflaechen.md` — Notion-Cockpit und öffentliches Archiv
+- `09-Verfassungspruefung.md` — Prüfung von Fassung 0.1.0 und Entscheidungen für 1.0.0
+- `10-Projektverfassung-1.0.0-entwurf.md` — vollständiger Review-Entwurf; noch nicht eingefroren
 - `events.jsonl` — kanonisches append-only Ereignislog
 - `event.schema.json` — Schema der Ereignisdatensätze
 
