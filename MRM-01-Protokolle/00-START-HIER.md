@@ -26,6 +26,9 @@ Rules:
 - `08-Externe-Arbeitsflaechen.md` — Notion-Cockpit und öffentliches Archiv
 - `09-Verfassungspruefung.md` — Prüfung von Fassung 0.1.0 und Entscheidungen für 1.0.0
 - `10-Projektverfassung-1.0.0-entwurf.md` — historischer Review-Entwurf vor dem Freeze
+- `11-Messdesign-1.0.0.md` — öffentliches, inhaltsfreies Designprotokoll des Messpakets
+- `12-Messinstrumente-Commitment-1.0.0.json` — öffentliches Hash-Commitment ohne Claims oder Antworten
+- `messinstrumente/` — privates eingefrorenes Messpaket; bis Baseline-Ende nicht öffentlich kopieren
 - `events.jsonl` — kanonisches append-only Ereignislog
 - `event.schema.json` — Schema der Ereignisdatensätze
 
