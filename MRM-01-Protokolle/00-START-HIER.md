@@ -17,7 +17,7 @@ Rules:
 ## Inhalt
 
 - `01-Ursprung.md` — Ursprung und geklärtes Briefing
-- `02-Projektverfassung.md` — Projektverfassung
+- `02-Projektverfassung.md` — eingefrorene Projektverfassung Version 1.0.0
 - `03-Versuchsdesign.md` — Mess- und Vergleichsplan
 - `04-Notion-Cockpit.md` — operative Datenbanken
 - `05-Social-Media-Protokoll.md` — Codex-geführte LinkedIn-Regeln
@@ -25,8 +25,10 @@ Rules:
 - `07-Naechste-Schritte.md` — verbindliche Reihenfolge ab Phase 0
 - `08-Externe-Arbeitsflaechen.md` — Notion-Cockpit und öffentliches Archiv
 - `09-Verfassungspruefung.md` — Prüfung von Fassung 0.1.0 und Entscheidungen für 1.0.0
-- `10-Projektverfassung-1.0.0-entwurf.md` — vollständiger Review-Entwurf; noch nicht eingefroren
+- `10-Projektverfassung-1.0.0-entwurf.md` — historischer Review-Entwurf vor dem Freeze
 - `events.jsonl` — kanonisches append-only Ereignislog
 - `event.schema.json` — Schema der Ereignisdatensätze
 
-Neue Protokolle werden künftig in diesem Ordner oder einem eindeutig benannten Unterordner abgelegt. Das öffentliche Repository und die Website-Spiegelung werden später in der Projektverfassung festgelegt.
+Neue Protokolle werden künftig in diesem Ordner oder einem eindeutig benannten
+Unterordner abgelegt. Das interne JSONL-Ledger bleibt kanonisch; das öffentliche
+Repository enthält die datenschutzgefilterte Projektion nach Verfassung 1.0.0.
