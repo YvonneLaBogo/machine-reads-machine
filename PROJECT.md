@@ -2,11 +2,12 @@
 
 **Object ID:** MRM-01  
 **Domain:** machine-reads-machine.org  
-**Status:** Phase 0 — constitution and instrumentation  
+**Status:** Phase 1 — pre-publication baseline  
 **Website status:** Not authorized for construction or publication  
 **Constitution:** Version 1.0.0 frozen on 2026-07-24  
 **Machine measurement package:** Version 1.0.0 frozen privately; public hash commitment only  
 **Human participant notice:** Version 1.0.0 frozen; not active before Phase 5 control run  
+**Intervention protocol:** Version 1.0.0 frozen; no LinkedIn intervention authorized  
 **Concept originator and human publisher:** Yvonne Bogosavljević  
 **AI project architect:** Codex  
 **Established:** 2026-07-22
@@ -32,11 +33,11 @@ remain outside the current phase unless separately decided and logged.
 
 ## Current gate
 
-Constitution 1.0.0, the private machine measurement package 1.0.0, and the
-human participant and privacy procedure 1.0.0 are frozen. Phase 0 remains open
-until the intervention rules are frozen. Website construction remains blocked
-until Phase 0 is closed, the pre-publication baseline is complete, and the
-technical platform decision is logged.
+Phase 0 is complete. Constitution 1.0.0, the private machine measurement
+package 1.0.0, the human participant and privacy procedure 1.0.0, and the
+intervention protocol 1.0.0 are frozen. Phase 1 is active for the
+pre-publication baseline. Website construction remains blocked until the
+baseline is complete and the technical platform decision is logged.
 
 ## Canonical record
 
