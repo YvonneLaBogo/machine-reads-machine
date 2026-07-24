@@ -29,6 +29,7 @@ Rules:
 - `11-Messdesign-1.0.0.md` — öffentliches, inhaltsfreies Designprotokoll des Messpakets
 - `12-Messinstrumente-Commitment-1.0.0.json` — öffentliches Hash-Commitment ohne Claims oder Antworten
 - `13-Datenschutz-und-Teilnahmeverfahren-1.0.0.md` — eingefrorene Regeln für den späteren menschlichen Vergleich
+- `14-Interventionsprotokoll-1.0.0.md` — eingefrorene Regeln für die spätere LinkedIn-Interventionsserie
 - `messinstrumente/` — privates eingefrorenes Messpaket; bis Baseline-Ende nicht öffentlich kopieren
 - `events.jsonl` — kanonisches append-only Ereignislog
 - `event.schema.json` — Schema der Ereignisdatensätze
