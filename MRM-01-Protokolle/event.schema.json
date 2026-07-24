@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://machine-reads-machine.org/schema/event.schema.json",
+  "title": "MRM-01 Event",
+  "description": "Canonical append-only event record schema for the MRM-01 project.",
+  "type": "object",
+  "required": [
+    "event_id",
+    "recorded_at",
+    "actor",
+    "action_type",
+    "decision",
+    "source",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^MRM-E[0-9]{4,}$"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "occurred_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "sequence_basis": {
+      "type": "string"
+    },
+    "actor": {
+      "enum": [
+        "YVONNE",
+        "CODEX",
+        "SYSTEM",
+        "EXTERNAL_MODEL",
+        "HUMAN_TEST_PARTICIPANT"
+      ]
+    },
+    "action_type": {
+      "type": "string",
+      "minLength": 3
+    },
+    "decision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "corrects_event": {
+      "type": "string",
+      "pattern": "^MRM-E[0-9]{4,}$"
+    },
+    "affected_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "affected_files": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "human_intervention": {
+      "type": ["boolean", "string", "null"]
+    },
+    "publication_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "content_hash": {
+      "type": "string"
+    },
+    "previous_event": {
+      "type": "string",
+      "pattern": "^MRM-E[0-9]{4,}$"
+    }
+  },
+  "additionalProperties": true
+}
